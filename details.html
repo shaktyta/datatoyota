@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="shortcut icon" href="favicon.png">
+<link rel="manifest" href="https://www.toyota.com/tcom/fonts/ToyotaType-Regular/ToyotaType-Regular.woff2">
+  <title>Toyota Data Marketplace</title>
+</head>
+
+<body style="margin-top:80px;">
+
+<div class="container">
+  <nav class="breadcrumb">
+  <a class="breadcrumb-item" href="#">Home</a>
+  <a class="breadcrumb-item" href="#">Vehicles</a>
+  <a class="breadcrumb-item" href="#">Vehicle Parts</a>
+  <a class="breadcrumb-item" href="#">Mfg Parts Order</a>
+
+</nav>
+
+<ul></ul>
+  <div class="row">
+    <div class="col-2">
+       <img src="https://shaktyta.github.io/datatoyota/operations-map-1.png" height="120px" width="200px">
+       <h6>Dataset Rating</h6>
+       <div class="stars float-left" data-stars="4">
+                    <svg height="25" width="23" class="star rating" data-rating="1">
+                      <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;"/>
+                    </svg>
+                    <svg height="25" width="23" class="star rating" data-rating="2">
+                      <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;"/>
+                    </svg>
+                    <svg height="25" width="23" class="star rating" data-rating="3">
+                      <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;"/>
+                    </svg>
+                    <svg height="25" width="23" class="star rating" data-rating="4">
+                      <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;"/>
+                    </svg>
+                    <svg height="25" width="23" class="star rating" data-rating="5">
+                      <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;"/>
+                    </svg>
+</div>
+
+<a href="http://localhost:3000/cart" style="width:170px;background-color: #862633;" type="button" class="btn btn-primary">REQUEST ACCESS</a>
+<p>Follow</p><a href="http://localhost:3000/cart" class="btn btn-round-edge btn-ripple float-right" role="button">+</a>
+
+<div class="container" id="underline">
+  <button type="button" class="btn btn-ripple" id="collapseit" data-toggle="collapse" data-target="#file">   </button>
+  <div id="file" class="collapse hide">
+         
+
+  </div>
+</div>
+    </div>
+
+    <div class="col-9">
+     <div class="container">
+   <h3>Manufacturing Parts Orders - Camry</h3>
+  <br>
+  <!-- Nav tabs -->
+  <ul class="nav " role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#home">Database Details</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu1">Service Definitions</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu2">Service Implementation</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu3">Test API</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu4">Sample Data</a>
+    </li>
+  </ul>
+
+
+<!-- -->
+
+
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="home" class="container tab-pane active"><br>
+    <h6> Description</h6 >
+    <p>This API provides the Fleet ID details for a Vehicle to Connected Technologies System. This helps in validating if the Vehicle belongs to Fleet. This will ensure Connected Technology system can enable telematics feature for requested Fleet vehicles.</p>    
+
+    </div>
+    <div id="menu1" class="container tab-pane fade"><br>
+      <h6>Service Definition</h6>
+      <p>Fleet ID details for a Vehicle to Connected Technologies System</p>
+    </div>
+    <div id="menu2" class="container tab-pane fade"><br>
+      <h6>Service Implementation</h6>
+      <p>Connected Technology system can enable telematics feature for requested Fleet vehicles </p>
+    </div>
+     <div id="menu3" class="container tab-pane fade"><br>
+      <h6>Test API</h6>
+      <p>This helps in validating if the Vehicle belongs to Fleet.</p>
+    </div>
+     <div id="menu4" class="container tab-pane fade"><br>
+      <h6>Manufacturing Parts Orders - Camry</h6>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Business Title</th>
+      <th scope="col">Data Domain</th>
+      <th scope="col">Asset Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"></th>
+      <td>accessory_code</td>
+      <td>Accessory</td>
+      <td>Table</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>audit_Create_Date</td>
+      <td>Audit Create Date</td>
+      <td><h6><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20.012" viewBox="0 0 30 30.012"><defs><style>.a{fill:#58595b;}</style></defs><g transform="translate(-1 -0.975)"><path class="a" d="M31,16A15,15,0,1,0,6.29,27.41h0a14.94,14.94,0,0,0,19.4,0h0A15,15,0,0,0,31,16ZM3,16a13,13,0,1,1,23,8.29V24a6,6,0,0,0-6-6H12a6,6,0,0,0-6,6v.29A12.94,12.94,0,0,1,3,16ZM8,26.23V24a4,4,0,0,1,4-4h8a4,4,0,0,1,4,4v2.23a12.92,12.92,0,0,1-16,0Z"/><path class="a" d="M16,16a5,5,0,1,0-5-5A5,5,0,0,0,16,16Zm0-8a3,3,0,1,1-3,3A3,3,0,0,1,16,8Z"/></g></svg>Data Owner</h6></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>authorized_code</td>
+      <td></td>
+      <td>C Lewis</td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+  </div>
+</div>
+    </div>
+    
+  </div>
+</div>
+</body>
+</html>
